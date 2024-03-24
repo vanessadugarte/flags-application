@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href=".images/flag-icon.svg" type="image/x-icon">
+    <title>Flags App</title>
+</head>
+<body>
+
+    <section class="header">
+    <img src="./images/slide-desk-flags.jpg" class="slide-desktop">
+    <img src="./images/slide-mob-flags.jpg" class="slide-mob">
+    <h1 class="h1">FLAGS OF THE WORLD</h1>
+    <p class="description">Explore the diversity and richness of our planet through the flags of each country. Each flag represents a cultural story and symbolizes the unity of its people. Discover more by clicking on each card and immerse yourself in an exciting journey</p>
+    <h3>Select your favorite country by marking it with a star 🌟</h3>
+
+</section>
+
+<div class="modal-container" id="modalContainer">
+    <div id="miModal" class="modal">
+        <h3 id="tituloModal">VENEZUELA</h3>
+        <img id="imgModal">
+        <div class="description-line">
+            <span>Capital:</span>
+            <p id="capitalModal"></p>
+        </div>
+        <div class="description-line">
+            <span>Moneda:</span>
+            <p id="monedaModal"></p>
+        </div>
+        <div class="description-line">
+            <span>Idioma:</span>
+            <div id="languagesModal" class="lenguajesModal"></div>
+        </div>
+        <div class="description-line">
+            <span>Poblaci&oacute;n:</span>
+            <p id="poblacionModal"></p>
+        </div>
+        <button class="cerrar" id="btnCerrarModal">Cerrar</button>
+    </div>
+</div>
+
+    <div class="input-container">
+        <input type="text" id="inputID" class="inputClass" placeholder="Search countries">
+    </div>
+
+    <button type="button" class="btnFavorito" id="abrirFavorito">Favorite country</button>
+
+    <section class="continent-container" id="continentsContainer">
+    <!--
+    <h2 class="h2">AFRICA</h2>
+    <article class="continent">    
+        <div class="continent__item">
+            <img src="./images/angola.png" class="flag" alt="bandera angola"> 
+            <p>Argelia</p>
+        </div>
+    </article> -->
+
+</section>
+
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>
